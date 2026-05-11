@@ -1,0 +1,9 @@
+instance_name       = "dev-postgres-instance"
+db_name             = "devdb"
+vpc_id              = "vpc-09b6392aa7ace51eb"
+subnet_ids          = ["subnet-03a2f198533c30e81", "subnet-0f0a816eae65e48e2"]
+security_group_name = "dev-rds-postgres-sg"
+allocated_storage   = 10
+engine_name         = "postgres"
+engine_version      = "18.2"
+db_class            = "db.t3.micro"
